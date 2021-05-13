@@ -1,0 +1,135 @@
+body{
+    background:  #FDFEFE ;
+    color: #000;
+    padding: 0px;
+}
+.container{
+  margin-top: 30px;
+}
+
+
+.form-style {
+  
+    padding-left: 20px;
+   
+}
+#name,
+#email
+{
+   
+   
+    height: 50px !important;
+    padding: 15px;
+    margin-bottom: 30px ;
+    
+    border: 1px solid #F2F3F4;
+}
+#phone{
+  
+    border: 1px solid #F2F3F4;
+    height: 50px;
+    padding: 15px;
+    margin-bottom: 30px;
+    
+}
+#text{
+    border: 1px solid #F2F3F4;
+   
+    height: 150px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+#send{
+  
+    background: #D5DBDB!important ;
+    
+    height: 40px;
+    width: 80px;
+}
+#send:hover{
+  box-shadow: none !important;
+}
+
+.form-control:focus{
+
+box-shadow: none !important;
+}
+.contact-us-form {
+  padding-right: 70px;
+}
+.contact-us .contact-address h2 {
+
+  font-size: 25px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  font-weight: 400;
+  font-family: 'Newsreader', serif;
+  color: #000;
+  
+}
+.contact-us .contact-address p {
+  font-size: 20px;
+  margin: 40px 0 25px 0;
+  color: #A6ACAF;
+}
+.tran3s{
+  font-size: 28px;
+  color: #000
+}
+.tran3s:hover{
+  color: #000
+}
+.contact-us .contact-address ul li {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-instagram,
+.fa-linkedin{
+  color: #CACFD2 ;
+  padding:  7px;
+  border-radius: 300px;
+  font-size: 15px;
+  border: 1px solid #CACFD2;
+  margin: 5px;
+}
+.fa-facebook:hover{
+  color: #1877f2;
+}
+.fa-instagram:hover{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fa-twitter:hover{
+  color: #1DA1F2;
+}
+.fa-linkedin:hover{
+  color:  #2867B2;
+}
+.map-canvas{
+  border: none !important;
+  margin-top: 30px;
+  -webkit-box-shadow: 0 0 10px #A6ACAF;
+        box-shadow: 0 0 10px #A6ACAF;
+  
+}
+@media screen and (max-width: 768px) {
+
+ .contact-address {
+  padding: 30px;
+  margin-top: 20px;
+}
+
+}
+
+@media (min-width: 992px) {
+  .container {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+  }
+}
